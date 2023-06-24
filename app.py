@@ -1,6 +1,6 @@
 @app.route('/')
 def hello_world():
-    return 'Hello, World and teachers!'
+    return 'Hello, World!'
 
 from flask import Flask, render_template, request
 app = Flask(__name__)
